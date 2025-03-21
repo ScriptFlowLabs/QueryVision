@@ -1010,6 +1010,5 @@ class Window(QDialog):
 app = QApplication(sys.argv)
 
 main_window = MainWindow()
-# main_window.on_connect('localhost', 'root', 'root')
 
 sys.exit(app.exec_())
